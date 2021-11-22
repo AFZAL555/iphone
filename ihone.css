@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:1px;
+    border-color: black;
+}
+body{
+    background-color:white;
+    color: black;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.5;
+    height:200vh;
+}
+
+.block1{
+    width: 100%;
+    max-width:1200px;
+    margin:auto;
+    
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 13px;
+    background-color: rgb(255, 253, 253);
+    
+}
+.nav1 ul{
+    list-style: none;
+    display:flex ;
+    
+}
+.nav1 ul li{
+    padding: 0 12px;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2px;
+}
+.nav1 ul li a:hover {
+    border-bottom: 1px solid #262626;
+
+  }
+.nav1 ul li a:active {
+    color: brown;
+}
+
+.logo {
+    width: 27px;
+    padding: -5px;
+    margin-left: 112px;
+}
+.nav1 ul.menu1 {
+    flex: 1;
+    margin-left: 1px;
+}
+.nav2{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(116, 112, 112);
+    align-items: center;
+    
+}
+.nav2 p{
+    font-size:15px;
+    margin-top: 1px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(241, 238, 238);
+
+}
+.header{
+    width: 100%;
+    
+    
+}
+.header img{
+    margin-left: -6px;
+    width: 100%;
+
+}
+.header h1{
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  text-align: center;
+  font-weight:600;
+}
+.header h2{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight:200;
+    color: rgb(235, 79, 170);
+
+}
+.header p{
+    text-align: center;
+       
+}
+.header p a{
+    
+    color: rgb(10, 133, 190);
+    text-decoration: none;  
+}
+.header1{
+    width: 100%;   
+}
+.imagehead img{
+    width: 100%;
+}
+.header1 h1{
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  text-align: center;
+  font-weight:600;
+}
+.header1 h2{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight:200;
+    color: rgb(235, 79, 170);
+}
+.header1 p{
+    text-align: center;   
+}
+.header1 p a{
+    color: rgb(10, 133, 190);
+    text-decoration: none;  
+}
+
+  .links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+    
+  }
+  
+  .links-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center; 
+  }
+  .links ul{
+    list-style: none;
+    color: #616161;
+  }
+  
+  .links li {
+    line-height: 2.8;
+    
+  }
+  .links li a {
+    text-decoration: none;
+    color: #616161;  
+  }
+  .footer {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    
+  }
+  
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .footer div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .footer div i {
+    margin-right: 10px;
+    
+  }
+  
+  .footer ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+  }
+
+  .footer li {
+    margin-right: 30px;
+    margin-bottom: 20px;   
+  }
+  .footer li a{
+    text-decoration: none;
+    color: #616161;
+  }
+  
+  
+  
+  
